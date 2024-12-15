@@ -1,0 +1,117 @@
+/* Estilo para el fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para el encabezado */
+  header {
+    background-color: #9b59b6; /* color púrpura */
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  /* Estilo para los enlaces de la navegación */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #3498db; /* color azul */
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    color: #2980b9;
+  }
+  
+  /* Estilo para el contenido principal */
+  main {
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  main h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  main p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  main ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  main ul li {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  main ul li a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  main ul li a:hover {
+    color: #2980b9;
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color: #e2e2e2;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Estilo para compartir */
+  .share {
+    font-size: small;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: .5rem;
+  }
+  
+  .share a {
+    color: #2980b9;
+  }
+  
+  .share a:hover {
+    color: #3498db;
+  }
+  
+  .share a:before {
+    content: "* ";
+  }
+  
+  /* Estilo para la clase de contenido */
+  .content {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  

@@ -1,0 +1,17 @@
+url: http://localhost:4000
+baseurl: "/proyecto-jekyll-01"
+title: Mi Nuevo blog
+author: Juan Pablo Paz
+
+collections:
+  posts:
+    output: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+
+markdown: kramdown
+
+# número de posts por página
+paginate: 5

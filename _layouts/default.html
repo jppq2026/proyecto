@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!-- Título de la página -->
+  <title>{{ page.title | default: site.title }}</title>
+
+  <!-- Enlaces a hojas de estilo y otros recursos -->
+  <link rel="stylesheet" href="{{ "/assets/css/estilo.css" | relative_url }}">
+  <link href="{{ '/atom.xml' | relative_url }}" rel="alternate" type="application/atom+xml">
+</head>
+<body>
+
+  <!-- Cabecera del sitio -->
+  <header>
+    <div class="content">
+      <h1>
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </h1>
+    </div>
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <main>
+    <div class="content">
+      {{ content }} <!-- Aquí se coloca el contenido de la página -->
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="content">
+      <p>&copy; {{ "now" | date: "%Y" }} {{ site.author }}</p>
+    </div>
+  </footer>
+
+</body>
+</html>

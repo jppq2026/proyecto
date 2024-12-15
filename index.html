@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<!-- Contenido específico de la página de inicio -->
+<h2>Bienvenido a mi blog</h2>
+<p>Este es un sitio hecho con Jekyll. Aquí podrás encontrar mis publicaciones.</p>
+
+
+<h3>Últimas publicaciones:</h3>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
